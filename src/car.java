@@ -9,5 +9,12 @@
  * @author abadi
  */
 public class car {
+    int age;
+    String name;
+
+    public car(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
     
 }
